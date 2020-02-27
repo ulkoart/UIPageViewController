@@ -12,6 +12,8 @@
 		CE71CDCE2407E24B00C2E0F7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE71CDCC2407E24B00C2E0F7 /* Main.storyboard */; };
 		CE71CDD02407E24C00C2E0F7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE71CDCF2407E24C00C2E0F7 /* Assets.xcassets */; };
 		CE71CDD32407E24C00C2E0F7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE71CDD12407E24C00C2E0F7 /* LaunchScreen.storyboard */; };
+		CE71CDDB2407E50F00C2E0F7 /* ContentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE71CDDA2407E50F00C2E0F7 /* ContentViewController.swift */; };
+		CE71CDDD2407E52E00C2E0F7 /* PageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE71CDDC2407E52E00C2E0F7 /* PageViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		CE71CDCF2407E24C00C2E0F7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CE71CDD22407E24C00C2E0F7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CE71CDD42407E24C00C2E0F7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE71CDDA2407E50F00C2E0F7 /* ContentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewController.swift; sourceTree = "<group>"; };
+		CE71CDDC2407E52E00C2E0F7 /* PageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +61,8 @@
 				CE71CDC82407E24B00C2E0F7 /* AppDelegate.swift */,
 				CE71CDCA2407E24B00C2E0F7 /* ViewController.swift */,
 				CE71CDCC2407E24B00C2E0F7 /* Main.storyboard */,
+				CE71CDDA2407E50F00C2E0F7 /* ContentViewController.swift */,
+				CE71CDDC2407E52E00C2E0F7 /* PageViewController.swift */,
 				CE71CDCF2407E24C00C2E0F7 /* Assets.xcassets */,
 				CE71CDD12407E24C00C2E0F7 /* LaunchScreen.storyboard */,
 				CE71CDD42407E24C00C2E0F7 /* Info.plist */,
@@ -136,7 +142,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				CE71CDCB2407E24B00C2E0F7 /* ViewController.swift in Sources */,
+				CE71CDDB2407E50F00C2E0F7 /* ContentViewController.swift in Sources */,
 				CE71CDC92407E24B00C2E0F7 /* AppDelegate.swift in Sources */,
+				CE71CDDD2407E52E00C2E0F7 /* PageViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
